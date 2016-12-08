@@ -46,13 +46,18 @@ class BasicRequest: NSObject {
         var request = URLRequest(url: url!)
         request.httpMethod = "Post"
         let task = session.dataTask(with: request) { (data, request, error) in
-            DispatchQueue.main.sync {
-                if error == nil{
-                    dataBack(data!)
-                }else{
-                    print(error?.localizedDescription as Any)
-                }
-            }
+            print(data as Any)
+            let str = NSString.init(data: data!, encoding: String.Encoding.utf8.rawValue)
+            print(str)
+            
+            
+//            DispatchQueue.main.sync {
+//                if error == nil{
+//                    dataBack(data!)
+//                }else{
+//                    print(error?.localizedDescription as Any)
+//                }
+//            }
             
         }
         task.resume()

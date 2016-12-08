@@ -19,17 +19,18 @@ class SiteViewController: BasicViewController {
     }
     
     func loadData(){
-       // #define HomeUrl @"https://api.108tian.com/mobile/v3/RecommendDetailList?channel=&page=%d&step=2&cityId=%@"
+        let str = "https://api.108tian.com/mobile/v3/SceneDetail"
         
-        let pare = ["channel":"","page":"\(self.page)","step":"2","cityId":self.cityId]
-        BasicRequest.PostRequestWithPare(str: Tools.HomeURL, pare: pare) {
+        //55ed14b10cf288ee424a4bd9
+        let pare = ["id":"55ed14b10cf288ee424a4bd9"]
+        
+        BasicRequest.PostRequestWithPare(str: str, pare: pare) {
             (data) in
             
-            let json = try! JSONSerialization.jsonObject(with: data, options: .allowFragments)
-            print(json)
-            
-            
-            
+//            let json = try! JSONSerialization.jsonObject(with: data, options: .allowFragments)
+//            print(json)
+        
+        
         }
         
         
