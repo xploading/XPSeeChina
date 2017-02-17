@@ -15,6 +15,7 @@
 		BC6E1F211DF6EBA300B6BD5E /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E1F201DF6EBA300B6BD5E /* BasicViewController.swift */; };
 		BC6E1F231DF6EBDD00B6BD5E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E1F221DF6EBDD00B6BD5E /* HomeController.swift */; };
 		BC6E1F251DF6EC3B00B6BD5E /* SiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E1F241DF6EC3B00B6BD5E /* SiteViewController.swift */; };
+		BCD098BB1E57037D00BF5E12 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD098BA1E57037D00BF5E12 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BC6E1F201DF6EBA300B6BD5E /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		BC6E1F221DF6EBDD00B6BD5E /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		BC6E1F241DF6EC3B00B6BD5E /* SiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteViewController.swift; sourceTree = "<group>"; };
+		BCD098BA1E57037D00BF5E12 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = ViewController/TestViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				BC6E1F181DF6E1A800B6BD5E /* BasicRequest.swift */,
 				BC6E1F1A1DF6E81400B6BD5E /* Tools.swift */,
+				BCD098BA1E57037D00BF5E12 /* TestViewController.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD098BB1E57037D00BF5E12 /* TestViewController.swift in Sources */,
 				BC6E1F1B1DF6E81400B6BD5E /* Tools.swift in Sources */,
 				BC6E1F211DF6EBA300B6BD5E /* BasicViewController.swift in Sources */,
 				BC6E1F191DF6E1A800B6BD5E /* BasicRequest.swift in Sources */,
